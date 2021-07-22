@@ -59,7 +59,7 @@ class LoginSpotify extends StatelessWidget {
           child: Column(
             children: [
               Padding(padding: const EdgeInsets.all(12.0),child: FaIcon(FontAwesomeIcons.spotify, size: 40,color:Colors.white)),
-              Text("백만명의 지원자\n즐겨라 Spotify.",textAlign:TextAlign.center,style: TextStyle(fontSize: 24.0, color: Colors.white,fontWeight: FontWeight.bold)),
+              Text("백만명의 지원자\n즐겨라 Spotify",textAlign:TextAlign.center,style: TextStyle(fontSize: 24.0, color: Colors.white,fontWeight: FontWeight.bold)),
             ],
           ),
         ),
